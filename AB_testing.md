@@ -30,3 +30,17 @@
 | **Step-Back** | “Solve 23 + 47 and then verify by subtracting 23 from your answer.” | “23 + 47 = 70. Verification: 70 − 23 = 47 ✅ Correct, so answer is confirmed.” |
 | **ReAct (Reason + Action)** | “You are an agent. Determine if 23 + 47 is even or odd. Show reasoning and action.” | “Reasoning: 23 + 47 = 70. 70 is divisible by 2, so it is even. Action: Confirmed 70 is even.” |
 | **ToT (Tree of Thoughts)** | “Plan a multi-step approach to find 23 + 47 considering different strategies.” | “Thought 1: Add tens first → 20 + 40 = 60, then units → 3 + 7 = 10, sum = 70. Thought 2: Break differently → 23 + 7 = 30, 30 + 40 = 70. Final Answer: 70” |
+
+
+# 📝 Best Practices for Effective Prompts
+
+| **Practice** | **Example Prompt** | **Improved Prompt / Explanation** |
+|--------------|------------------|----------------------------------|
+| **Be Specific and Clear** | "Explain the impact of climate change on agriculture." | "Provide a detailed analysis of how climate change affects crop yields, water availability, and farming practices in South Asia over the past two decades." |
+| **Use Action Verbs** | "Information about the French Revolution." | "Summarize the key events of the French Revolution, highlighting the causes, major battles, and outcomes." |
+| **Provide Examples When Possible** | "Translate the following sentences into French." | "Translate the following sentences into French. Example: 'Good morning' → 'Bonjour'. Now, translate: 'How are you?'" |
+| **Structure Your Prompts** | "Tell me about the water cycle." | "Explain the water cycle in the following structure:\n1. Evaporation: Describe the process.\n2. Condensation: Explain how clouds form.\n3. Precipitation: Discuss how rain occurs.\n4. Collection: Explain how water returns to bodies of water." |
+| **Use Instruction Over Constraints** | "Write a poem about nature. Don't make it too long." | "Write a 4-line poem about the beauty of nature, focusing on the changing seasons." |
+| **Control Output Format** | "List the capitals of European countries." | "Provide a table listing European countries and their capitals. Format:\n| Country | Capital |\n|---------|---------|\n| France | Paris |\n| Germany | Berlin |\n| Italy | Rome |" |
+| **Use Variables for Reusability** | "Generate a report on the economic impact of tourism in Paris." | "Generate a report on the economic impact of tourism in {City}. Replace {City} with 'Paris', 'Rome', or 'Tokyo' as needed." |
+| **Iterate and Document** | "Explain photosynthesis." | "Explain photosynthesis in simple terms for a 10-year-old. Include the role of sunlight, water, and carbon dioxide." |
