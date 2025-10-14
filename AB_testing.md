@@ -83,3 +83,58 @@
 ---
 
 *(These pitfalls and avoidance strategies are adapted from the “Common Pitfalls and How to Avoid Them” section of the Panaversity prompt engineering guide.)*  
+
+
+
+# 🛠 Hands-on Examples
+
+### Example 1: Translation  
+**Prompt:**  
+Translate the following English sentences into Urdu:  
+1. “Good morning.”  
+2. “How are you?”  
+3. “I like to learn AI.”  
+
+**Expected Output:**  
+1. “صبح بخیر۔”  
+2. “آپ کیسے ہیں؟”  
+3. “مجھے AI سیکھنا پسند ہے۔”
+
+---
+
+### Example 2: Summarization  
+**Prompt:**  
+Summarize this paragraph in 2–3 sentences:  
+
+"Artificial intelligence (AI) enables machines to perform tasks that normally require human intelligence. It includes areas like language understanding, image recognition, and decision-making. AI systems learn from data and improve over time."  
+
+**Expected Output:**  
+AI lets machines do tasks that usually need human intelligence, like understanding language and recognizing images. These systems learn from data and get better as they receive more information.
+
+---
+
+### Example 3: QA with Context  
+**Prompt:**  
+Here is a short passage:  
+
+"Marie Curie discovered radium and polonium and was the first woman to win a Nobel Prize. Her work laid the foundation for modern radiological science."  
+
+**Question:**  
+What did Marie Curie discover, and why is she important?  
+
+**Expected Output:**  
+Marie Curie discovered radium and polonium. She is important because she was the first woman to win a Nobel Prize and her discoveries advanced the field of radiological science.
+
+---
+
+### Example 4: Role + Instruction  
+**Prompt:**  
+You are a high school science teacher. Explain the greenhouse effect to students in simple terms, with one real-world example.  
+
+**Expected Output:**  
+The greenhouse effect happens when certain gases in Earth’s atmosphere trap heat from the sun, keeping the planet warm.  
+For example, just like a car’s windows let sunlight in but don’t let heat escape, greenhouse gases let sunlight through but trap the warmth, which raises Earth’s temperature.
+
+---
+
+> 💡 These are hands-on examples — meaning learners can try writing, modifying, and testing the prompts themselves to understand how prompt design improves the AI’s responses.
