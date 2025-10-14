@@ -44,3 +44,42 @@
 | **Control Output Format** | "List the capitals of European countries." | "Provide a table listing European countries and their capitals. Format:\n| Country | Capital |\n|---------|---------|\n| France | Paris |\n| Germany | Berlin |\n| Italy | Rome |" |
 | **Use Variables for Reusability** | "Generate a report on the economic impact of tourism in Paris." | "Generate a report on the economic impact of tourism in {City}. Replace {City} with 'Paris', 'Rome', or 'Tokyo' as needed." |
 | **Iterate and Document** | "Explain photosynthesis." | "Explain photosynthesis in simple terms for a 10-year-old. Include the role of sunlight, water, and carbon dioxide." |
+
+
+# ⚠️ Common Pitfalls and How to Avoid Them
+
+### 1. Vague or ambiguous prompts  
+- **Pitfall:** “Tell me about climate change.”  
+- **Avoid by:** Being specific: “Explain how climate change affects monsoon patterns in South Asia from 2000 to 2025.”
+
+### 2. Overly long or complex prompts  
+- **Pitfall:** Giving a single prompt with many sub-questions intertwined.  
+- **Avoid by:** Breaking into smaller prompts, or clearly numbering the parts.
+
+### 3. Too many constraints  
+- **Pitfall:** “Write a poem about nature, in Urdu, exactly 7 lines, no rhymes, include words ‘tree’ and ‘river’.”  
+- **Avoid by:** Using instructions rather than rigid constraints: “Write a poem (4–7 lines) about nature, including ‘tree’ and ‘river’.”
+
+### 4. Not specifying output format  
+- **Pitfall:** “List world capitals.” → you get a paragraph.  
+- **Avoid by:** Specifying format, e.g. “List world capitals in a table format: `Country | Capital`.”
+
+### 5. Ignoring domain or context  
+- **Pitfall:** Asking “Explain photosynthesis” without saying audience or scope.  
+- **Avoid by:** Providing context: “Explain photosynthesis to a 12-year-old in an urban school.”
+
+### 6. Inconsistent or missing examples  
+- **Pitfall:** Giving no example, so AI doesn’t know style.  
+- **Avoid by:** Including a small example: e.g. “Example: ‘Hello’ → ‘Bonjour’. Now translate: ‘Good night’.”
+
+### 7. Not iterating or refining  
+- **Pitfall:** You use a prompt once and never tweak it.  
+- **Avoid by:** Testing, refining, documenting which prompt works best, and improving over time.
+
+### 8. Hardcoding everything (no reuse)  
+- **Pitfall:** Writing prompts specific to one input every time.  
+- **Avoid by:** Using placeholders/variables, e.g. `{Topic}`, so you can reuse: “Explain {Topic} in 5 sentences.”
+
+---
+
+*(These pitfalls and avoidance strategies are adapted from the “Common Pitfalls and How to Avoid Them” section of the Panaversity prompt engineering guide.)*  
