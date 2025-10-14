@@ -19,3 +19,14 @@
 | **System Prompting** | System: “You are a polite assistant. Answer politely.” User: “How are you?” | “I’m doing well, thank you! How about you?” |
 | **Role Prompting** | “You are a teacher. Explain photosynthesis to a student in simple words.” | “Photosynthesis is how plants make food using sunlight, water, and air.” |
 | **Contextual Prompting** | “Previously we discussed planets. Now, explain why Mars is red.” | “Mars is red because its surface has iron oxide, which gives it a reddish color.” |
+
+
+# 🧠 Advanced Prompting Examples
+
+| **Strategy** | **Example Prompt** | **Example Output** |
+|--------------|------------------|------------------|
+| **CoT (Chain of Thought)** | “Solve 23 + 47 step by step.” | “Step 1: Add tens → 20 + 40 = 60. Step 2: Add units → 3 + 7 = 10. Step 3: Combine → 60 + 10 = 70. Answer: 70” |
+| **Self-Consistency** | “Solve 23 + 47 three times independently and pick the most frequent answer.” | “Attempt 1: 70, Attempt 2: 70, Attempt 3: 70. Most common answer: 70” |
+| **Step-Back** | “Solve 23 + 47 and then verify by subtracting 23 from your answer.” | “23 + 47 = 70. Verification: 70 − 23 = 47 ✅ Correct, so answer is confirmed.” |
+| **ReAct (Reason + Action)** | “You are an agent. Determine if 23 + 47 is even or odd. Show reasoning and action.” | “Reasoning: 23 + 47 = 70. 70 is divisible by 2, so it is even. Action: Confirmed 70 is even.” |
+| **ToT (Tree of Thoughts)** | “Plan a multi-step approach to find 23 + 47 considering different strategies.” | “Thought 1: Add tens first → 20 + 40 = 60, then units → 3 + 7 = 10, sum = 70. Thought 2: Break differently → 23 + 7 = 30, 30 + 40 = 70. Final Answer: 70” |
