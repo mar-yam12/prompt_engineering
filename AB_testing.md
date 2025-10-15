@@ -138,3 +138,6 @@ For example, just like a car’s windows let sunlight in but don’t let heat es
 ---
 
 > 💡 These are hands-on examples — meaning learners can try writing, modifying, and testing the prompts themselves to understand how prompt design improves the AI’s responses.
+
+
+
