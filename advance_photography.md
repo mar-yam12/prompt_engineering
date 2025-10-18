@@ -13,8 +13,7 @@
 **Example Prompt Structure:**  
 Professional portrait shot with 85mm lens at f/1.4, creating shallow depth of field with creamy bokeh. Rembrandt lighting setup using softbox as key light, subtle fill light to control shadows.
 
-markdown
-Copy code
+
 
 ---
 
@@ -41,8 +40,7 @@ Copy code
 **Test Prompt:**  
 Corporate headshot, 85mm f/2.8 even light, neutral bg.
 
-yaml
-Copy code
+
 
 ---
 
@@ -118,8 +116,7 @@ Copy code
 **Test Prompt:**  
 Landscape, 24mm lens f/11, deep DoF, Hasselblad medium format style.
 
-markdown
-Copy code
+
 
 ---
 
@@ -157,8 +154,7 @@ Copy code
 **Test Prompt:**  
 Portrait golden hour, soft window light, butterfly pattern.
 
-markdown
-Copy code
+
 
 ---
 
@@ -175,8 +171,7 @@ Copy code
 **Test Prompt:**  
 Subject shallow DoF f/1.4, creamy bokeh city lights.
 
-yaml
-Copy code
+
 
 ---
 
@@ -200,8 +195,7 @@ Copy code
 **Test Prompt:**  
 Environmental portrait rule of thirds, leading lines, full-body framing.
 
-yaml
-Copy code
+
 
 ---
 
@@ -224,8 +218,7 @@ Copy code
 **Test Prompt:**  
 Magazine editorial fashion, black and white high contrast.
 
-yaml
-Copy code
+
 
 ---
 
@@ -241,8 +234,7 @@ Copy code
 **Test Prompt:**  
 Portrait neutral 5000K light, natural skin tones.
 
-yaml
-Copy code
+
 
 ---
 
@@ -261,8 +253,7 @@ Copy code
 **Test Prompt:**  
 Post-processed portrait, high contrast dodge burn, warm color grading.
 
-yaml
-Copy code
+
 
 ---
 
@@ -282,8 +273,7 @@ Copy code
 **Test Prompt:**  
 Studio portrait softbox key light, reflector fill, beauty dish rim.
 
-yaml
-Copy code
+
 
 ---
 
