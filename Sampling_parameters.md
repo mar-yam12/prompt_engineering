@@ -89,8 +89,13 @@ Top-k = 1 → Greedy (hamesha #1 word)
 
 ## 🎯 Kaunsa Kab Use Karein? (Cheat Sheet)
 
-
-```TaskTemperatureTop-pTop-kReasonCode generation0.20.9540AccurateCustomer support bot0.70.950Natural + safeStory / Poem1.00.95100CreativeFact-based Q&A0.11.01Max accuracyBrainstorming ideas1.20.98150Wild ideas```
+| Task                  | Temperature | Top-p | Top-k | Reason             |
+|-----------------------|-------------|-------|-------|--------------------|
+| Code generation       | 0.2         | 0.95  | 40    | Accurate           |
+| Customer support bot  | 0.7         | 0.9   | 50    | Natural + safe     |
+| Story / Poem          | 1.0         | 0.95  | 100   | Creative           |
+| Fact-based Q&A        | 0.1         | 1.0   | 1     | Max accuracy       |
+| Brainstorming ideas   | 1.2         | 0.98  | 150   | Wild ideas         |
 
 ### ⚙️ Code Example (Python)
 ```
