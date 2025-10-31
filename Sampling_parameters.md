@@ -19,8 +19,8 @@ Yeh parameters **Large Language Model (LLM)** ke output ko control karte hain. I
 ### Kya hai?
 Ek **scaling factor** jo LLM ke **next word probability** ko softmax ke through badalta hai.  
 
-### Range: `0.0` se `2.0` tak  
-*(Common: 0.1 – 1.2)*
+### Range: `0.0` se `1.0` tak  
+*(Common: 0.1 – 1.0)*
 
 ### Kaise kaam karta hai?
 - **Low Temp (0.1 – 0.5)** → Sirf **high confidence** words → **boring, predictable, accurate**  
@@ -31,7 +31,7 @@ Ek **scaling factor** jo LLM ke **next word probability** ko softmax ke through 
 Prompt: "Ek robot ghar gaya aur..."
 
 Temp = 0.2 → "...wahan baitha TV dekhta raha."
-Temp = 1.2 → "...wahan disco kiya aur chand pe selfie li!"
+Temp = 1.0 → "...wahan disco kiya aur chand pe selfie li!"
 Best Practice:
 
 
