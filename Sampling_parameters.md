@@ -1,6 +1,6 @@
 # LLM Sampling Parameters: Temperature, Top-p, Top-k
 
-> Ek hi README mein **sab kuch detail se**, Roman Urdu + English mix mein. GitHub pe push karne ke liye ready!
+> 
 
 ---
 
