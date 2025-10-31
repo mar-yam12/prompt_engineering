@@ -114,21 +114,18 @@ print(response.choices[0].message.content)
 ```
 ### Note:
 
-##### OpenAI: temperature + top_p
-##### Hugging Face / Grok API: top_k bhi support
-##### Top-k aur Top-p dono mat use karo → conflict
+- OpenAI: temperature + top_p
+- Hugging Face / Grok API: top_k bhi support
+- Top-k aur Top-p dono mat use karo → conflict
 
 
 
 ### 🔥 Pro Tips
 
-*Temperature + Top-p saath best kaam karte hain*
-
-*Temp = 0 + Seed → 100% same output har baar*
-
-*Top-p > Top-k zyada flexible hota hai*
-
-*Experiment karo → Har model alag behave karta hai*
+1. *Temperature + Top-p saath best kaam karte hain*
+2. *Temp = 0 + Seed → 100% same output har baar*
+3. *Top-p > Top-k zyada flexible hota hai*
+4. *Experiment karo → Har model alag behave karta hai*
 
 
 ## ❌ Common Mistakes
@@ -141,7 +138,7 @@ print(response.choices[0].message.content)
 | Temp=0 + Top-p=1.0           | No effect      |
 ## 🛠️ Experiment Karne Ke Tools
 
-##### Grok Playground
-##### Hugging Face Text Generation
-##### OpenAI Playground
+- Grok Playground
+- Hugging Face Text Generation
+- OpenAI Playground
 
